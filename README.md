@@ -358,6 +358,68 @@ Built using the **MERN Stack** to improve healthcare accessibility through moder
 <img width="1280" height="643" alt="image" src="https://github.com/user-attachments/assets/297841fe-aa5e-4315-b183-3d179863660b" />
 <img width="1280" height="645" alt="image" src="https://github.com/user-attachments/assets/2d01f948-6f5b-4ed4-91e7-3eda48a37e8f" />
 
+How to Push Project from VS Code to GitHub
+1️⃣ Initialize Git (if not already done)
+git init
+
+2️⃣ Add all project files
+git add .
+
+3️⃣ Commit your changes
+git commit -m "Initial commit"
+
+4️⃣ Create a repository on GitHub
+
+Go to GitHub
+
+Click New Repository
+
+Copy the repository URL
+
+5️⃣ Connect local project to GitHub
+git remote add origin https://github.com/your-username/repository-name.git
+
+6️⃣ Push code to GitHub
+git branch -M main
+git push -u origin main
+
+📂 Pushing Future Changes
+
+Whenever you update your project:
+
+git add .
+git commit -m "Updated project"
+git push
+
+🤝 Contributing
+
+Contributions are welcome! Follow these steps to contribute:
+
+Fork the repository
+
+Clone your fork:
+
+git clone https://github.com/your-username/repository-name.git
+
+
+Create a new branch:
+
+git checkout -b feature-name
+
+
+Make your changes
+
+Commit your changes:
+
+git commit -m "Added new feature"
+
+
+Push to your branch:
+
+git push origin feature-name
+
+
+Open a Pull Request on GitHub
 
 
 

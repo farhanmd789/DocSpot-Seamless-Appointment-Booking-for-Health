@@ -171,6 +171,41 @@ JWT_SECRET=your_secret_key
 ```
 
 ---
+### Frontend Setup (Node Modules Installation)
+## Step 1 — Go to frontend folder
+cd frontend
+
+## Step 2 — Install dependencies
+npm install
+
+
+This will install all required packages from package.json into the node_modules folder.
+
+## Step 3 — Run frontend
+npm start
+
+
+or
+
+npm run dev
+
+
+Frontend will run on:
+
+http://localhost:3000
+
+🛠️ Backend Setup (Node Modules Installation)
+## Step 1 — Go to backend folder
+cd backend
+
+## Step 2 — Install dependencies
+npm install
+
+This installs backend dependencies like Express, Mongoose, etc.
+
+## Step 3 — Run backend server
+npm start 
+
 
 ### 3️⃣ Setup Frontend
 
@@ -208,8 +243,17 @@ Frontend runs at:
 ```
 http://localhost:3000
 ```
+#### Running Frontend & Backend Together
 
----
+### Open two terminals:
+
+### Terminal 1
+cd frontend
+npm start
+
+### Terminal 2
+cd backend
+npm start
 
 ## 📂 Folder Structure
 
